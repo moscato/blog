@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the new blog",
+      "body": "In publishing and graphic design, lorem ipsum is a filler text / dummy text commonly used to demonstrate the graphic elements of a document or visual presentation. Replacing meaningful content that could be distracting with placeholder text may allow viewers to focus on graphic aspects such as font, typography, and page layout.",
+      "likes": 30
+    },
+    {
+      "id": 2,
+      "title": "Drywall",
+      "body": "Drywall is a panel made of calcium sulfate dihydrate, with or without additives, typically extruded between thick sheets of facer and backer paper, used in the construction of interior walls and ceilings. The plaster is mixed with fiber; plasticizer, foaming agent; and additives that can reduce mildew, flammability.",
+      "likes": 15
+    },
+    {
+      "id": 3,
+      "title": "DogBat",
+      "body": "The greater dog-like bat ( Peropteryx kappleri) is a bat species found from southern Mexico through Brazil and Peru The greater dog-like bat ( Peropteryx kappleri) is a bat species found from southern Mexico through Brazil and Peru.",
+      "likes": 20
+    }
+  ],
+  "polls": [
+    {
+      "id": 1,
+      "question": "Do you prefer Vue or React?",
+      "AnswerA": "Vue",
+      "answerB": "React"
+    }
+  ]
+}
