@@ -3,8 +3,15 @@ const container = document.querySelector('.blogs');
 
 const renderPosts = async () => {
     let uri = 'https://blog-production-08bd.up.railway.app/posts?_sort=likes&_order=desc';
+    const options = {
+        mode: 'no-cors'
+    };
 
-    const res = await fetch(uri);
+    const res = await fetch(uri, options)
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch(error => console.error(error));
+    
     const posts = await res.json();
     
     let template = '';
